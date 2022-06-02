@@ -54,7 +54,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "After firing its Quad Assault Cannons, the Deluge may create a lead rain zone in the same line10 as a free action. This zone ends immediately if the Deluge moves, is destroyed, becomes STUNNED or JAMMED, or if it fires the weapon again. When a character enters this zone for the first time in a round (but not if they start their turn in it), the Deluge automatically deals the Quad Assault Cannons’ RELIABLE damage to them.",
+    "effect": "After firing its <b>Quad Assault Cannons</b>, the Deluge may create a <b>Lead Rain zone</b> in the same <b>LINE 10</b> as a free action. This zone ends immediately if the Deluge moves, is destroyed, becomes <b>STUNNED</b> or <b>JAMMED</b>, or if it fires the weapon again. When a character enters this zone for the first time in a round (but not if they start their turn in it), the Deluge automatically deals the <b>Quad Assault Cannons</b>’ <b>RELIABLE</b> damage to them.",
     "tags": []
   },
   {
@@ -67,7 +67,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "While the Deluge is in the DANGER ZONE, its Quad Assault Cannons deal +2 bonus damage, and their RELIABLE value is increased by 1.",
+    "effect": "While the Deluge is in the <b>DANGER ZONE</b>, its <b>Quad Assault Cannons</b> deal <b>+2 BONUS DAMAGE</b>, and their <b>RELIABLE</b> value is increased by 1.",
     "tags": []
   },
   {
@@ -80,7 +80,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Deluge and adjacent allies gain soft cover for as long as it’s generating a zone of lead rain.",
+    "effect": "The Deluge and adjacent allies gain <b>SOFT COVER</b> for as long as it’s generating a zone of <b>Lead Rain</b>.",
     "tags": []
   },
   {
@@ -93,7 +93,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "When the Deluge clears all heat, it may choose to receive heat equal to half its Heat Cap, putting it in the DANGER ZONE.",
+    "effect": "When the Deluge clears all <b>HEAT</b>, it may choose to receive <b>HEAT</b> equal to half its <b>HEAT CAP</b>, putting it in the <b>DANGER ZONE</b>.",
     "tags": []
   },
   {
@@ -106,7 +106,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Deluge reorients its frame and shifts into point-defense mode. Until the start of its next turn, the Deluge becomes IMMOBILIZED and can’t take normal actions, but it projects a Burst 3 point defense zone around itself. This zone is a lead rain zone that only damages hostiles, instead providing the Deluge and its allies with soft cover and RESISTANCE to damage from ranged attacks.",
+    "effect": "The Deluge reorients its frame and shifts into point-defense mode. Until the start of its next turn, the Deluge becomes <b>IMMOBILIZED</b> and can’t take normal actions, but it projects a <b>BURST 3</b> point defense zone around itself. This zone is a <b>Lead Rain zone</b> that only damages hostiles, instead providing the Deluge and its allies with <b>SOFT COVER</b> and <b>RESISTANCE</b> to damage from ranged attacks.",
     "tags": [
       {
         "id": "tg_full_action"
@@ -127,7 +127,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "Attacks with the Deluge’s Quad Assault Cannons ignore INVISIBLE.",
+    "effect": "Attacks with the Deluge’s <b>Quad Assault Cannons</b> ignore <b>INVISIBLE</b>.",
     "tags": []
   },
   {
@@ -140,7 +140,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "Until the start of its next turn, the Deluge’s Quad Assault Cannons gain INACCURATE, but their attack and the lead rain zone they generate become Cone 7.",
+    "effect": "Until the start of its next turn, the <b>Deluge’s Quad Assault Cannons</b> gain <b>INACCURATE</b>, but their attack and the lead rain zone they generate become <b>CONE 7</b>.",
     "tags": [
       {
         "id": "tg_recharge",
@@ -161,7 +161,200 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "Hostile characters within the Deluge’s lead rain zone become IMPAIRED, and can’t clear this condition by any means while they remain in the zone.",
+    "effect": "Hostile characters within the Deluge’s <b>Lead Rain</b> zone become <b>IMPAIRED</b>, and can’t clear this condition by any means while they remain in the zone.",
+    "tags": []
+  },
+  {
+    "id": "ada_inGoldenFlame_npcFeature_lobber_miningCharge",
+    "name": "Mining Charge",
+    "origin": {
+      "type": "Class",
+      "name": "LOBBER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "The Lobber can use this weapon as both parts of a <b>BARRAGE</b>, but the target areas can’t overlap.",
+    "tags": [
+      {
+        "id": "tg_arcing"
+      }
+    ],
+    "weapon_type": "Main Launcher",
+    "attack_bonus": [
+      1,
+      2,
+      3
+    ],
+    "damage": [
+      {
+        "type": "Energy",
+        "damage": [
+          4,
+          6,
+          8
+        ]
+      }
+    ],
+    "range": [
+      {
+        "type": "Range",
+        "val": 5
+      },
+      {
+        "type": "Blast",
+        "val": 1
+      }
+    ],
+    "on_hit": ""
+  },
+  {
+    "id": "ada_inGoldenFlame_npcFeature_lobber_blastPlating",
+    "name": "BLAST PLATING",
+    "origin": {
+      "type": "Class",
+      "name": "LOBBER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Lobber has <b>RESISTANCE</b> to <b>Energy</b> and damage from <b>BLAST</b> attacks and systems.",
+    "tags": []
+  },
+  {
+    "id": "ada_inGoldenFlame_npcFeature_lobber_interestingChoiceForCQB",
+    "name": "INTERESTING CHOICE FOR CQB",
+    "origin": {
+      "type": "Class",
+      "name": "LOBBER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Lobber doesn’t receive <b>DIFFICULTY</b> on <b>Mining Charge</b> attacks due to being <b>ENGAGED</b> if it includes itself in the <b>BLAST</b>",
+    "tags": []
+  },
+  {
+    "id": "ada_inGoldenFlame_npcFeature_lobber_pullThePin",
+    "name": "PULL THE PIN!",
+    "origin": {
+      "type": "Class",
+      "name": "LOBBER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "When the Lobber’s mech is destroyed, it immediately makes two <b>Mining Charge</b> attacks. Both of these attacks gain <b>+1 ACCURACY</b> and must include the Lobber in their <b>BLAST</b>; this isn’t a <b>BARRAGE</b>, so the areas may overlap. The pilot may <b>EJECT</b> as part of this process, and definitely should.",
+    "tags": []
+  },
+  {
+    "id": "ada_inGoldenFlame_npcFeature_lobber_expertDemolitionist",
+    "name": "EXPERT DEMOLITIONIST",
+    "origin": {
+      "type": "Class",
+      "name": "LOBBER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Objects, terrain and <b>DEPLOYABLES</b> in the area of the Lobber's <b>Mining Charge</b> attacks are automatically hit and take <b>5 ENERGY AP</b>.",
+    "tags": []
+  },
+  {
+    "id": "ada_inGoldenFlame_npcFeature_lobber_assaultLauncher",
+    "name": "Assault Launcher",
+    "origin": {
+      "type": "Class",
+      "name": "DELUGE",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The next <b>Mining Charge</b> attack the Lobber makes becomes <b>RANGE 15</b>. Any <b>BURST</b> remains the same.",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 5
+      },
+      {
+        "id": "tg_free_action"
+      }
+    ]
+  },
+  {
+    "id": "ada_inGoldenFlame_npcFeature_lobber_incendiaryCharge",
+    "name": "Incendiary Charge",
+    "origin": {
+      "type": "Class",
+      "name": "DELUGE",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The next <b>Mining Charge</b> attack the Lobber makes deals <b>3/4/5 BURN</b> instead of its regular damage.",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 5
+      },
+      {
+        "id": "tg_free_action"
+      }
+    ]
+  },
+  {
+    "id": "ada_inGoldenFlame_npcFeature_lobber_kineticCharge",
+    "name": "Kinetic Charge",
+    "origin": {
+      "type": "Class",
+      "name": "DELUGE",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The next <b>Mining Charge</b> attack the Lobber makes gains <b>KNOCKBACK 2</b>",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 5
+      },
+      {
+        "id": "tg_free_action"
+      }
+    ]
+  },
+  {
+    "id": "ada_inGoldenFlame_npcFeature_lobber_seismicCharge",
+    "name": "Seismic Charge",
+    "origin": {
+      "type": "Class",
+      "name": "DELUGE",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "Any targets the Lobber hits with its next <b>Mining Charge</b> attack must succeed on a <b>HULL</b> save or be knocked <b>PRONE</b>.",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 5
+      },
+      {
+        "id": "tg_free_action"
+      }
+    ]
+  },
+  {
+    "id": "ada_inGoldenFlame_npcFeature_lobber_valhalla",
+    "name": "VALHALLA!",
+    "origin": {
+      "type": "Class",
+      "name": "LOBBER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Lobber’s final <b>Mining Charge</b> attacks during <b>Pull the Pin!</b> are <b>BURST 2</b>, deal <b>+1d6 BONUS DAMAGE</b> and can be used even if the Lobber’s <b>Mining Charge</b> has been destroyed.",
     "tags": []
   }
 ]

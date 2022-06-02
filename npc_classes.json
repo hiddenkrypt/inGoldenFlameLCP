@@ -99,5 +99,107 @@
       "ada_inGoldenFlame_npcFeature_deluge_witheringHail"
     ],
     "power": 100
+  },
+   {
+    "id": "ada_inGoldenFlame_npcClass_lobber",
+    "name": "LOBBER",
+    "role": "striker",
+    "info": {
+      "flavor": "The Lobber is a textbook example of the ingenuity and pragmatism of warfare in the frontier, often little more than a civilian loader frame covered in pressure plating, wielding mining explosives. They are a cheap, cost-effective force multiplier, and terrifyingly effective against soft targets or mechanized chassis in close formation.",
+      "tactics": "The Lobber is a close-range combatant that specializes in punishing targets who bunch up. It has a broad range of optional systems that allow its attacks more tactical flexibility. Notably, it’s resistant to all of the damage it can deal, so it doesn’t need to worry so much about catching itself in its own blasts. <br><br>If it has multiple optional systems that modify its MINING CHARGE attacks, it can use any and all of them at once."
+    },
+    "stats": {
+      "armor": [
+        1,
+        1,
+        1
+      ],
+      "hp": [
+        12,
+        14,
+        16
+      ],
+      "evade": [
+        8,
+        10,
+        12
+      ],
+      "edef": [
+        8,
+        10,
+        12
+      ],
+      "heatcap": [
+        6,
+        6,
+        8
+      ],
+      "speed": [
+        4,
+        4,
+        4
+      ],
+      "sensor": [
+        8,
+        8,
+        8
+      ],
+      "save": [
+        12,
+        15,
+        18
+      ],
+      "hull": [
+        0,
+        1,
+        2
+      ],
+      "agility": [
+        1,
+        2,
+        3
+      ],
+      "systems": [
+        0,
+        0,
+        1
+      ],
+      "engineering": [
+        1,
+        2,
+        3
+      ],
+      "size": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "activations": [
+        1,
+        1,
+        1
+      ]
+    },
+    "base_features": [
+      "ada_inGoldenFlame_npcFeature_lobber_miningCharge",
+      "ada_inGoldenFlame_npcFeature_lobber_blastPlating",
+      "ada_inGoldenFlame_npcFeature_lobber_interestingChoiceForCQB",
+      "ada_inGoldenFlame_npcFeature_lobber_pullThePin"
+    ],
+    "optional_features": [
+      "ada_inGoldenFlame_npcFeature_lobber_assaultLauncher",
+      "ada_inGoldenFlame_npcFeature_lobber_expertDemolitionist",
+      "ada_inGoldenFlame_npcFeature_lobber_incendiaryCharge",
+      "ada_inGoldenFlame_npcFeature_lobber_kineticCharge",
+      "ada_inGoldenFlame_npcFeature_lobber_seismicCharge",
+      "ada_inGoldenFlame_npcFeature_lobber_valhalla" 
+    ],
+    "power": 100
   }
 ]
