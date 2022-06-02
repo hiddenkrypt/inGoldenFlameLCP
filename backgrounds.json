@@ -1,41 +1,41 @@
 [
   {
-    "id": "ada_in-golden-flame_background-Fugitive",
+    "id": "ada_inGoldenFlame_background_fugitive",
     "name": "Fugitive",
     "description": "You’re part of the long and not-so-proud tradition of coming to the Long Rim to flee from something.<br><br><i>What are you running from? Are you a criminal? A refugee? A political exile? A disgraced celebrity? Are you escaping a familial, legal or societal obligation? Did you see or hear something you shouldn’t have?</i><br><br>Coming out to Calliope was a drastic change. <i>Did you leave behind a life of comfort, or is this place – Gods forbid – a step up? How did you get out here? Did you choose Calliope, or was it just where the ship was going? Did you suffer culture shock, or did you fit right in? How did you establish your new identity?</i><br><br> And finally, there’s the matter every fugitive worries about: the threat of their past. <i>Does anyone else here know who you really are? Who’s going to come looking for you, and why? Is it your family? Bounty hunters? A criminal syndicate? The Baronies? Union? A corprostate? Something less tangible? Something less comprehensible? Are you putting other people in danger by being here? What will you do when they finally catch up with you?</i>"
   },
   {
-    "id": "ada_in-golden-flame_background-Moonlighter",
+    "id": "ada_inGoldenFlame_background_moonlighter",
     "name": "Moonlighter",
     "description": "You lived a double life. Not because you wanted to, but because you needed to. Yes, you robbed people. Yes, you put holes in ships. Maybe you did worse. You weren't proud of it, but it put food on the table. <i>What was your original profession? What made you turn to piracy? How did you justify it to yourself? Did you struggle, or did you take to it easily?</i><br><br> Most of the system would hate you for your crimes, and the career pirates hate you because you can't even admit what you are. A moonlighter, by nature, has to live a double life. <i>Does anyone else know what you did? How did you explain the times you were away? Can any of your acts be traced back to you? Why did you get out? Come to think of it, did you actually get out?</i>"
   },
   {
-    "id": "ada_in-golden-flame_background-Outlander",
+    "id": "ada_inGoldenFlame_background_outlander",
     "name": "Outlander",
     "description": "You’re a rarity: born and raised in the Long Rim, but on a planet. Calliope’s worlds aren’t much kinder than the void of space, so you’re used to harsh living. <i>Was it tepid Asphodel or frigid Mróz? What was your old community like? What was life on a lifeless planet like? What made you decide to step into space? Do you still have friends or family back home?</i><br><br> Other Calliopeans regard the Outlanders as odd. <i>Do you carry signs of your birthplace with you? How did you adapt to life in space? What do you think of spacers? What planetside habits seem perfectly normal to you but baffle those around you?"
   },
   {
-    "id": "ada_in-golden-flame_background-Searcher",
+    "id": "ada_inGoldenFlame_background_searcher",
     "name": "Searcher",
     "description": "You didn't flee to Calliope; someone or something important to you did, and you followed right behind. <i>Why are you here? What drove you out this far? Was it love? Hate? Honor? Justice? Revenge? Purpose? Knowledge? Can you even remember?</i><br><br> Then there's the subject of your search. <i>Is it a family member? A friend? A lover? A colleague? A rival? An enemy? A treasure? A scientific discovery? A lost prototype? Is it something abstract? Are you trying to find yourself? Seeking an answer to life’s great questions? And what will you do when you finally find what you’re looking for?</i>"
   },
   {
-    "id": "ada_in-golden-flame_background-Sigdiver",
+    "id": "ada_inGoldenFlame_background_sigdiver",
     "name": "Sigdiver",
     "description": "You’re part hacker, part digital archaeologist, part electronic trash collector. You crack the shell of Calliope’s vast, decaying data network in search of valuable data-salvage within. <i>How long have you been at this? What got you started on sigdiving? Did you dive with a clique, or were you a solo act? Did you dive for money, for knowledge, or just for the sake of the art?</i><br><br>  Going from brain-diving ancient satellites to slinging guns in a mech was a bit of a jump, but perhaps not as much as one might think; you already have the experience with neural interfaces, after all. <i>Was becoming a pilot a hard career change, or a natural progression? Do you still dive, or have you given it up? What secrets do you carry with you? Do you still talk to your old contacts?</i>"
   },
   {
-    "id": "ada_in-golden-flame_background-Starborn",
+    "id": "ada_inGoldenFlame_background_starborn",
     "name": "Starborn",
     "description": "Others come to Calliope’s stations running from something, or running to something, but you were born here. <i>Were you born on this very station, or did you migrate here from one of the others? Are your kin still around, and do you keep in touch with them? How do you feel about Calliope? What skills did you develop growing up in the system?</i><br><br> There's a big wide world out there, beyond the black, full of huge concepts like “Union” and “corprostates.” <i>How do you feel about the rest of the galaxy? Have you ever set foot on a planet? Have you ever been out of system, and if so, why did you come back?</i>"
   },
   {
-    "id": "ada_in-golden-flame_background-Sunlighter",
+    "id": "ada_inGoldenFlame_background_sunlighter",
     "name": "Sunlighter",
     "description": "You were a pirate, and you had no illusions about it – or perhaps you had too many of them. You roamed Calliope, radiators blazing bright, taking what you wanted. <i>How did this all start? Were you a moonlighter who went full-time, or did you get recruited by a band? Was it even your choice?</i><br><br> The system knew your name, and feared it. <i>Did you cultivate a brutal reputation, or were you a dashing rogue? Did you have a code, or did you do whatever you wished? What were the signs of your passage?</i><br><br> Those days are in the past, or so you claim. <i>What made you leave the pirate life behind? Does your old band resent you for leaving? Do the people you live amongst now respect you, or despise you? Did you leave victims with scores to settle? Do you still have outlaw contacts?"
   },
   {
-    "id": "ada_in-golden-flame_background-Tourist",
+    "id": "ada_inGoldenFlame_background_Tourist",
     "name": "Tourist",
     "description": "You don’t have to be in Calliope, and you don’t have to stay here. You chose to come here, and you chose to stay a while. <i>What attracted you to the Long Rim, and Calliope in particular? Are you here for the experience? Are you doing research for a project? Are you just going where the stellar wind takes you?</i><br><br> “Tourist” is a derogatory term. Unlike most Calliopeans, you’re wealthy, and you can always leave if you don’t like it here. <i>Why do you stay, even when things get rough and scary? How do you fit in? Do people resent you, or have you proven yourself to be more than just an uppity rich kid? Or is it just that you’re loose with your money, and can bury people’s doubts under the cash they need to feed their families?</i>"
   }

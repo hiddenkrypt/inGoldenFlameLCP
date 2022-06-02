@@ -1,6 +1,6 @@
 [
   {
-    "id": "ada_in-golden-flame_npc-class_Deluge",
+    "id": "ada_inGoldenFlame_npcClass_deluge",
     "name": "DELUGE",
     "role": "artillery",
     "info": {
@@ -86,20 +86,18 @@
       ]
     },
     "base_features": [
-      "ada_in-golden-flame_npc-feature_deluge_quad-assault-cannons",
-      "ada_in-golden-flame_npc-feature_deluge_lead-rain",
-      "ada_in-golden-flame_npc-feature_deluge_reactive-defence-system",
-      "ada_in-golden-flame_npc-feature_deluge_spin-up"
+      "ada_inGoldenFlame_npcFeature_deluge_quadAssaultCannons",
+      "ada_inGoldenFlame_npcFeature_deluge_leadRain",
+      "ada_inGoldenFlame_npcFeature_deluge_reactiveDefenceSystem",
+      "ada_inGoldenFlame_npcFeature_deluge_spinUp"
     ],
     "optional_features": [
-      "ada_in-golden-flame_npc-feature_deluge_mathur-stop",
-      "ada_in-golden-flame_npc-feature_deluge_point-defense-mode",
-      "ada_in-golden-flame_npc-feature_deluge_sheer-volume-of-bullets",
-      "ada_in-golden-flame_npc-feature_deluge_spray-and-pray",
-      "ada_in-golden-flame_npc-feature_deluge_withering-hail"
+      "ada_inGoldenFlame_npcFeature_deluge_mathurStop",
+      "ada_inGoldenFlame_npcFeature_deluge_pointDefenseMode",
+      "ada_inGoldenFlame_npcFeature_deluge_sheerVolumeOfBullets",
+      "ada_inGoldenFlame_npcFeature_deluge_sprayAndPray",
+      "ada_inGoldenFlame_npcFeature_deluge_witheringHail"
     ],
     "power": 100
-  },
-  
- 
+  }
 ]

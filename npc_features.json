@@ -1,6 +1,6 @@
 [
   {
-    "id": "ada_in-golden-flame_npc-feature_deluge_quad-assault-cannons",
+    "id": "ada_inGoldenFlame_npcFeature_deluge_quadAssaultCannons",
     "name": "Quad Assault Cannons",
     "origin": {
       "type": "Class",
@@ -45,7 +45,7 @@
     "on_hit": ""
   },
   {
-    "id": "ada_in-golden-flame_npc-feature_deluge_lead-rain",
+    "id": "ada_inGoldenFlame_npcFeature_deluge_leadRain",
     "name": "LEAD RAIN",
     "origin": {
       "type": "Class",
@@ -58,7 +58,7 @@
     "tags": []
   },
   {
-    "id": "ada_in-golden-flame_npc-feature_deluge_spin-up",
+    "id": "ada_inGoldenFlame_npcFeature_deluge_spinUp",
     "name": "SPIN UP",
     "origin": {
       "type": "Class",
@@ -71,7 +71,7 @@
     "tags": []
   },
   {
-    "id": "ada_in-golden-flame_npc-feature_deluge_reactive-defence-system",
+    "id": "ada_inGoldenFlame_npcFeature_deluge_reactiveDefenceSystem",
     "name": "REACTIVE DEFENCE SYSTEM",
     "origin": {
       "type": "Class",
@@ -84,7 +84,7 @@
     "tags": []
   },
   {
-    "id": "ada_in-golden-flame_npc-feature_deluge_mathur-stop",
+    "id": "ada_inGoldenFlame_npcFeature_deluge_mathurStop",
     "name": "MATHUR STOP",
     "origin": {
       "type": "Class",
@@ -97,7 +97,7 @@
     "tags": []
   },
   {
-    "id": "ada_in-golden-flame_npc-feature_deluge_point-defense-mode",
+    "id": "ada_inGoldenFlame_npcFeature_deluge_pointDefenseMode",
     "name": "POINT DEFENSE MODE",
     "origin": {
       "type": "Class",
@@ -118,7 +118,7 @@
     ]
   },
   {
-    "id": "ada_in-golden-flame_npc-feature_deluge_sheer-volume-of-bullets",
+    "id": "ada_inGoldenFlame_npcFeature_deluge_sheerVolumeOfBullets",
     "name": "SHEER VOLUME OF BULLETS",
     "origin": {
       "type": "Class",
@@ -131,7 +131,7 @@
     "tags": []
   },
   {
-    "id": "ada_in-golden-flame_npc-feature_deluge_spray-and-pray",
+    "id": "ada_inGoldenFlame_npcFeature_deluge_sprayAndPray",
     "name": "SPRAY AND PRAY",
     "origin": {
       "type": "Class",
@@ -152,7 +152,7 @@
     ]
   },
   {
-    "id": "ada_in-golden-flame_npc-feature_deluge_withering-hail",
+    "id": "ada_inGoldenFlame_npcFeature_deluge_witheringHail",
     "name": "WITHERING HAIL",
     "origin": {
       "type": "Class",
