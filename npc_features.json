@@ -1,0 +1,167 @@
+[
+  {
+    "id": "ada_in-golden-flame_npc-feature_deluge_quad-assault-cannons",
+    "name": "Quad Assault Cannons",
+    "origin": {
+      "type": "Class",
+      "name": "DELUGE",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "",
+    "tags": [
+      {
+        "id": "tg_reliable",
+        "val": "{3/4/5}"
+      },
+      {
+        "id": "tg_heat_self",
+        "val": 2
+      }
+    ],
+    "weapon_type": "Superheavy Cannon",
+    "attack_bonus": [
+      1,
+      2,
+      3
+    ],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "damage": [
+          6,
+          8,
+          10
+        ]
+      }
+    ],
+    "range": [
+      {
+        "type": "Line",
+        "val": 10
+      }
+    ],
+    "on_hit": ""
+  },
+  {
+    "id": "ada_in-golden-flame_npc-feature_deluge_lead-rain",
+    "name": "LEAD RAIN",
+    "origin": {
+      "type": "Class",
+      "name": "DELUGE",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "After firing its Quad Assault Cannons, the Deluge may create a lead rain zone in the same line10 as a free action. This zone ends immediately if the Deluge moves, is destroyed, becomes STUNNED or JAMMED, or if it fires the weapon again. When a character enters this zone for the first time in a round (but not if they start their turn in it), the Deluge automatically deals the Quad Assault Cannons’ RELIABLE damage to them.",
+    "tags": []
+  },
+  {
+    "id": "ada_in-golden-flame_npc-feature_deluge_spin-up",
+    "name": "SPIN UP",
+    "origin": {
+      "type": "Class",
+      "name": "DELUGE",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "While the Deluge is in the DANGER ZONE, its Quad Assault Cannons deal +2 bonus damage, and their RELIABLE value is increased by 1.",
+    "tags": []
+  },
+  {
+    "id": "ada_in-golden-flame_npc-feature_deluge_reactive-defence-system",
+    "name": "REACTIVE DEFENCE SYSTEM",
+    "origin": {
+      "type": "Class",
+      "name": "DELUGE",
+      "base": true
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Deluge and adjacent allies gain soft cover for as long as it’s generating a zone of lead rain.",
+    "tags": []
+  },
+  {
+    "id": "ada_in-golden-flame_npc-feature_deluge_mathur-stop",
+    "name": "MATHUR STOP",
+    "origin": {
+      "type": "Class",
+      "name": "DELUGE",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "When the Deluge clears all heat, it may choose to receive heat equal to half its Heat Cap, putting it in the DANGER ZONE.",
+    "tags": []
+  },
+  {
+    "id": "ada_in-golden-flame_npc-feature_deluge_point-defense-mode",
+    "name": "POINT DEFENSE MODE",
+    "origin": {
+      "type": "Class",
+      "name": "DELUGE",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Deluge reorients its frame and shifts into point-defense mode. Until the start of its next turn, the Deluge becomes IMMOBILIZED and can’t take normal actions, but it projects a Burst 3 point defense zone around itself. This zone is a lead rain zone that only damages hostiles, instead providing the Deluge and its allies with soft cover and RESISTANCE to damage from ranged attacks.",
+    "tags": [
+      {
+        "id": "tg_full_action"
+      },
+      {
+        "id": "tg_recharge",
+        "val": 4
+      }
+    ]
+  },
+  {
+    "id": "ada_in-golden-flame_npc-feature_deluge_sheer-volume-of-bullets",
+    "name": "SHEER VOLUME OF BULLETS",
+    "origin": {
+      "type": "Class",
+      "name": "DELUGE",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Attacks with the Deluge’s Quad Assault Cannons ignore INVISIBLE.",
+    "tags": []
+  },
+  {
+    "id": "ada_in-golden-flame_npc-feature_deluge_spray-and-pray",
+    "name": "SPRAY AND PRAY",
+    "origin": {
+      "type": "Class",
+      "name": "DELUGE",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "Until the start of its next turn, the Deluge’s Quad Assault Cannons gain INACCURATE, but their attack and the lead rain zone they generate become Cone 7.",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 4
+      },
+      {
+        "id": "tg_protocol"
+      }
+    ]
+  },
+  {
+    "id": "ada_in-golden-flame_npc-feature_deluge_withering-hail",
+    "name": "WITHERING HAIL",
+    "origin": {
+      "type": "Class",
+      "name": "DELUGE",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Hostile characters within the Deluge’s lead rain zone become IMPAIRED, and can’t clear this condition by any means while they remain in the zone.",
+    "tags": []
+  }
+]

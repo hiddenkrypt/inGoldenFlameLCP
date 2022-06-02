@@ -1,0 +1,105 @@
+[
+  {
+    "id": "ada_in-golden-flame_npc-class_Deluge",
+    "name": "DELUGE",
+    "role": "artillery",
+    "info": {
+      "flavor": "Deluge-archetype chassis are the logical extreme of the n+1 doctrine of firepower: one big, expensive gun might be more powerful, but a handful of slightly smaller guns can do the job just as well for way less money. Why waste a king’s ransom on some fancy guided missile that might get punked by ECM when you could just buy ten thousand bullets and hose the whole place down? One of them has to hit.",
+      "tactics": "The Deluge’s primary tactic is to inhibit mobility by laying down zones that let it automatically damage enemies that enter them. As it continues to fire, its damage increases along with its heat – which is a potential weakness, since it needs to be close to exceeding its heat cap to do the most damage."
+    },
+    "stats": {
+      "armor": [
+        1,
+        1,
+        1
+      ],
+      "hp": [
+        10,
+        13,
+        26
+      ],
+      "evade": [
+        7,
+        8,
+        8
+      ],
+      "edef": [
+        10,
+        12,
+        14
+      ],
+      "heatcap": [
+        8,
+        8,
+        8
+      ],
+      "speed": [
+        3,
+        3,
+        3
+      ],
+      "sensor": [
+        5,
+        5,
+        5
+      ],
+      "save": [
+        10,
+        12,
+        14
+      ],
+      "hull": [
+        1,
+        2,
+        3
+      ],
+      "agility": [
+        -1,
+        -1,
+        -1
+      ],
+      "systems": [
+        0,
+        1,
+        1
+      ],
+      "engineering": [
+        2,
+        3,
+        5
+      ],
+      "size": [
+        [
+          2
+        ],
+        [
+          2
+        ],
+        [
+          2
+        ]
+      ],
+      "activations": [
+        1,
+        1,
+        1
+      ]
+    },
+    "base_features": [
+      "ada_in-golden-flame_npc-feature_deluge_quad-assault-cannons",
+      "ada_in-golden-flame_npc-feature_deluge_lead-rain",
+      "ada_in-golden-flame_npc-feature_deluge_reactive-defence-system",
+      "ada_in-golden-flame_npc-feature_deluge_spin-up"
+    ],
+    "optional_features": [
+      "ada_in-golden-flame_npc-feature_deluge_mathur-stop",
+      "ada_in-golden-flame_npc-feature_deluge_point-defense-mode",
+      "ada_in-golden-flame_npc-feature_deluge_sheer-volume-of-bullets",
+      "ada_in-golden-flame_npc-feature_deluge_spray-and-pray",
+      "ada_in-golden-flame_npc-feature_deluge_withering-hail"
+    ],
+    "power": 100
+  },
+  
+ 
+]
