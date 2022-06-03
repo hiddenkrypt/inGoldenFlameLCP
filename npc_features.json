@@ -54,7 +54,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "After firing its <b>Quad Assault Cannons</b>, the Deluge may create a <b>Lead Rain zone</b> in the same <b>LINE 10</b> as a free action. This zone ends immediately if the Deluge moves, is destroyed, becomes <b>STUNNED</b> or <b>JAMMED</b>, or if it fires the weapon again. When a character enters this zone for the first time in a round (but not if they start their turn in it), the Deluge automatically deals the <b>Quad Assault Cannons</b>’ <b>RELIABLE</b> damage to them.",
+    "effect": "After firing its <b>Quad Assault Cannons</b>, the Deluge may create a <b>lead rain zone</b> in the same <b>LINE 10</b> as a free action. This zone ends immediately if the Deluge moves, is destroyed, becomes <b>STUNNED</b> or <b>JAMMED</b>, or if it fires the weapon again. When a character enters this zone for the first time in a round (but not if they start their turn in it), the Deluge automatically deals the <b>Quad Assault Cannons</b>’ <b>RELIABLE</b> damage to them.",
     "tags": []
   },
   {
@@ -67,7 +67,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "While the Deluge is in the <b>DANGER ZONE</b>, its <b>Quad Assault Cannons</b> deal <b>+2 BONUS DAMAGE</b>, and their <b>RELIABLE</b> value is increased by 1.",
+    "effect": "While the Deluge is in the <b>DANGER ZONE</b>, its <b>Quad Assault Cannons</b> deal <b>+2 bonus damage</b>, and their <b>RELIABLE</b> value is increased by 1.",
     "tags": []
   },
   {
@@ -80,7 +80,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Deluge and adjacent allies gain <b>SOFT COVER</b> for as long as it’s generating a zone of <b>Lead Rain</b>.",
+    "effect": "The Deluge and adjacent allies gain <b>soft cover</b> for as long as it’s generating a zone of <b>lead rain</b>.",
     "tags": []
   },
   {
@@ -93,7 +93,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "When the Deluge clears all <b>HEAT</b>, it may choose to receive <b>HEAT</b> equal to half its <b>HEAT CAP</b>, putting it in the <b>DANGER ZONE</b>.",
+    "effect": "When the Deluge clears all <b>HEAT</b>, it may choose to receive <b>HEAT</b> equal to half its <b>Heat Cap</b>, putting it in the <b>DANGER ZONE</b>.",
     "tags": []
   },
   {
@@ -106,7 +106,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The Deluge reorients its frame and shifts into point-defense mode. Until the start of its next turn, the Deluge becomes <b>IMMOBILIZED</b> and can’t take normal actions, but it projects a <b>BURST 3</b> point defense zone around itself. This zone is a <b>Lead Rain zone</b> that only damages hostiles, instead providing the Deluge and its allies with <b>SOFT COVER</b> and <b>RESISTANCE</b> to damage from ranged attacks.",
+    "effect": "The Deluge reorients its frame and shifts into point-defense mode. Until the start of its next turn, the Deluge becomes <b>IMMOBILIZED</b> and can’t take normal actions, but it projects a <b>BURST 3</b> point defense zone around itself. This zone is a <b>lead rain zone</b> that only damages hostiles, instead providing the Deluge and its allies with <b>soft cover</b> and <b>RESISTANCE</b> to damage from ranged attacks.",
     "tags": [
       {
         "id": "tg_full_action"
@@ -140,7 +140,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "Until the start of its next turn, the <b>Deluge’s Quad Assault Cannons</b> gain <b>INACCURATE</b>, but their attack and the lead rain zone they generate become <b>CONE 7</b>.",
+    "effect": "Until the start of its next turn, the <b>Deluge’s Quad Assault Cannons</b> gain <b>INACCURATE</b>, but their attack and the <b>lead rain</b> zone they generate become <b>CONE 7</b>.",
     "tags": [
       {
         "id": "tg_recharge",
@@ -218,7 +218,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Lobber has <b>RESISTANCE</b> to <b>Energy</b> and damage from <b>BLAST</b> attacks and systems.",
+    "effect": "The Lobber has <b>RESISTANCE</b> to <b>Energy</b> and <b>damage from BLAST attacks and systems</b>.",
     "tags": []
   },
   {
@@ -312,7 +312,7 @@
     },
     "locked": false,
     "type": "System",
-    "effect": "The next <b>Mining Charge</b> attack the Lobber makes gains <b>KNOCKBACK 2</b>",
+    "effect": "The next <b>Mining Charge</b> attack the Lobber makes gains <b>Knockback 2</b>",
     "tags": [
       {
         "id": "tg_recharge",
@@ -354,7 +354,507 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Lobber’s final <b>Mining Charge</b> attacks during <b>Pull the Pin!</b> are <b>BURST 2</b>, deal <b>+1d6 BONUS DAMAGE</b> and can be used even if the Lobber’s <b>Mining Charge</b> has been destroyed.",
+    "effect": "The Lobber’s final <b>Mining Charge</b> attacks during <b>Pull the Pin!</b> are <b>BURST 2</b>, deal <b>+1d6 bonus damage</b> and can be used even if the Lobber’s <b>Mining Charge</b> has been destroyed.",
+    "tags": []
+  },
+  {
+    "id": "ada_inGoldenFlame_npcFeature_parallel_possibilityBlade",
+    "name": "Possibility Blade",
+    "origin": {
+      "type": "Class",
+      "name": "PARALLEL",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "",
+    "tags": [],
+    "weapon_type": "Heavy Melee",
+    "attack_bonus": [
+      2,
+      4,
+      6
+    ],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "damage": [
+          5,
+          7,
+          9
+        ]
+      }
+    ],
+    "range": [
+      {
+        "type": "Threat",
+        "val": 2
+      }
+    ],
+    "on_hit": ""
+  },
+  {
+    "id": "ada_inGoldenFlame_npcFeature_parallel_anomalousMotion",
+    "name": "ANOMALOUS MOTION",
+    "origin": {
+      "type": "Class",
+      "name": "PARALLEL",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Parallel <b>teleports</b> when it makes a standard move.",
+    "tags": []
+  },
+  {
+    "id": "ada_inGoldenFlame_npcFeature_parallel_phaseEcho",
+    "name": "PHASE ECHO",
+    "origin": {
+      "type": "Class",
+      "name": "PARALLEL",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Whenever the Parallel <b>teleports</b>, it creates an <b>echo</b> in the space it previously occupied. An <b>echo</b> is an obstruction the same size as the Parallel, has <b>EVASION 10</b>, <b>E-DEFENSE 10</b>, is destroyed if it takes any damage or <b>heat, and projects the same <b>THREAT</b> as the Parallel’s weapons. The Parallel can only have one <b>echo</b> at once; creating a new one destroys the old one. The Parallel also gains the <b>REVERT</b> and <b>ACHRONAL RESPONSE</b> reactions.",
+    "tags": []
+  },
+  {
+    "id": "ada_inGoldenFlame_npcFeature_parallel_revert",
+    "name": "Revert",
+    "origin": {
+      "type": "Class",
+      "name": "PARALLEL",
+      "base": true
+    },
+    "locked": false,
+    "type": "Reaction",
+    "effect": "The Parallel interrupts the triggering attack and <b>teleports</b> to the space of one of its <b>echoes</b>, destroying it. The attack now targets the new <b>echo</b> it left behind. If part of the same attack also targeted its previous <b>echo</b>, it now targets the Parallel.",
+    "tags": [
+      {
+        "id": "tg_round",
+        "val": 1
+      }
+    ],
+    "trigger": "A melee or ranged attack is made against the Parallel."
+  },
+  {
+    "id": "ada_inGoldenFlame_npcFeature_parallel_achronalResponse",
+    "name": "Achronal Response",
+    "origin": {
+      "type": "Class",
+      "name": "PARALLEL",
+      "base": true
+    },
+    "locked": false,
+    "type": "Reaction",
+    "effect": "The Parallel immediately <b>teleports</b> to the <b>echo’s</b> space, destroying it, and then triggers <b>OVERWATCH</b> as part of the same reaction, before the hostile character moves.",
+    "tags": [
+      {
+        "id": "tg_round",
+        "val": 1
+      }
+    ],
+    "trigger": "A hostile character starts movement (including <b>BOOST</b> and other actions) inside the <b>THREAT</b> of one of the Parallel’s echoes."
+  },
+  {
+    "id": "ada_inGoldenFlame_npcFeature_parallel_crackedMirror",
+    "name": "Cracked Mirror",
+    "origin": {
+      "type": "Class",
+      "name": "PARALLEL",
+      "base": false
+    },
+    "locked": false,
+    "type": "Reaction",
+    "effect": "The attacker must makes a <b>SYSTEMS</b> save. If it fails, the attack doesn’t happen and the attacker and the target swap position, both <b>teleporting</b>. The attacker must then repeat the attack against themselves.",
+    "tags": [
+      {
+        "id": "tg_round",
+        "val": 1
+      },
+      {
+        "id": "tg_recharge",
+        "val": 6
+      }
+    ],
+    "trigger": "A melee or ranged attack is made against the Parallel or one of its <b>echoes</b>."
+  },
+  {
+    "id": "ada_inGoldenFlame_npcFeature_parallel_deathwalker",
+    "name": "DEATHWALKER",
+    "origin": {
+      "type": "Class",
+      "name": "PARALLEL",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The first time that the Parallel is destroyed each combat, if they still have an <b>echo</b> active, they’re not actually defeated. At the start of the Parallel’s next turn, they <b>teleport</b> to their <b>echo</b>, destroying it and returning to <b>1 HP</b>. If their last <b>echo</b> is destroyed before their next turn, this trait doesn't function and the Parallel remains destroyed. This doesn’t stack with the <b>VETERAN</b> template’s <b>FEIGN DEATH</b> trait",
+    "tags": []
+  },
+  {
+    "id": "ada_inGoldenFlame_npcFeature_parallel_shatter",
+    "name": "SHATTER",
+    "origin": {
+      "type": "Class",
+      "name": "PARALLEL",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Whenever an echo is destroyed, it deals <b>3/6/9 KINETIC</b> in a <b>BURST 1</b> area.",
+    "tags": []
+  },
+  {
+    "id": "ada_inGoldenFlame_npcFeature_parallel_doppler",
+    "name": "Doppler",
+    "origin": {
+      "type": "Class",
+      "name": "PARALLEL",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Parallel may move one of its <b>echoes</b> up to 5 spaces. <b>Echoes</b> are not characters, so this movement ignores engagement and doesn’t provoke reactions.",
+    "tags": [
+      {
+        "id": "tg_protocol"
+      }
+    ]
+  },
+  {
+    "id": "ada_inGoldenFlame_npcFeature_parallel_uncertainty",
+    "name": "Uncertainty",
+    "origin": {
+      "type": "Class",
+      "name": "PARALLEL",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Parallel can have two <b>echoes</b> active at once, instead of one. It always decides which of its previous <b>echoes</b> to destroy if it creates a third. If this system is destroyed, an <b>echo</b> of the Parallel’s choice is also destroyed, even if it only has one left.",
+    "tags": []
+  },
+  {
+    "id": "ada_inGoldenFlame_npcFeature_parallel_wraithPistol",
+    "name": "Wraith Pistol",
+    "origin": {
+      "type": "Class",
+      "name": "PARALLEL",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "This weapon makes one extra attack per echo the Parallel has active. Each extra attack originates from a different one of its <b>echoes</b>.",
+    "tags": [],
+    "weapon_type": "Auxiliary CQB",
+    "attack_bonus": [
+      1,
+      2,
+      3
+    ],
+    "damage": [
+      {
+        "type": "Energy",
+        "damage": [
+          2,
+          4,
+          6
+        ]
+      }
+    ],
+    "range": [
+      {
+        "type": "range",
+        "val": 5
+      },
+      {
+        "type": "Threat",
+        "val": 3
+      }
+    ],
+    "on_hit": ""
+  },
+  {
+    "id": "ada_inGoldenFlame_npcFeature_slinger_handCannon",
+    "name": "Hand Cannon",
+    "origin": {
+      "type": "Class",
+      "name": "SLINGER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "",
+    "tags": [
+      {
+        "id": "tg_reliable",
+        "val": "1"
+      },
+      {
+        "id": "tg_ap"
+      }
+    ],
+    "weapon_type": "Auxiliary CQB",
+    "attack_bonus": [
+      2,
+      4,
+      6
+    ],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "damage": [
+          3,
+          4,
+          5
+        ]
+      }
+    ],
+    "range": [
+      {
+        "type": "range",
+        "val": 8
+      },
+      {
+        "type": "Threat",
+        "val": 3
+      }
+    ],
+    "on_hit": ""
+  },
+  {
+    "id": "ada_inGoldenFlame_npcFeature_slinger_coolHand",
+    "name": "COOL HAND",
+    "origin": {
+      "type": "Class",
+      "name": "SLINGER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Slinger gains <b>ACCURACY</b> instead of <b>DIFFICULTY</b> from being <b>ENGAGED</b>.",
+    "tags": []
+  },
+  {
+    "id": "ada_inGoldenFlame_npcFeature_slinger_deathmark",
+    "name": "DEATHMARK",
+    "origin": {
+      "type": "Class",
+      "name": "SLINGER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "When the Slinger scores a <b>critical hit</b>, their target gains <b>Deathmark</b>. A character with <b>Deathmark</b> can make an <b>AGILITY</b> save as a quick action to remove it.",
+    "tags": []
+  },
+  {
+    "id": "ada_inGoldenFlame_npcFeature_slinger_sunsZenith",
+    "name": "SUN'S ZENITH",
+    "origin": {
+      "type": "Class",
+      "name": "SLINGER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "Choose any number of characters within line of sight and <b>RANGE 8</b> of the Slinger. They each gain <b>Deathmark</b>.",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 5
+      },
+      {
+        "id": "tg_quick_action"
+      }
+    ]
+  },
+  {
+    "id": "ada_inGoldenFlame_npcFeature_slinger_ringTheBell",
+    "name": "Ring The Bell",
+    "origin": {
+      "type": "Class",
+      "name": "SLINGER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Slinger makes a <b>Hand Cannon</b> attack against each character with <b>Deathmark</b>, then clears <b>Deathmark</b> on those characters. Any character hit by these attacks becomes <b>IMPAIRED</b> until the end of their next turn. Attacks that score a <b>critical hit</b> can reapply <b>Deathmark</b>",
+    "tags": [
+      {
+        "id": "tg_protocol"
+      }
+    ]
+  },
+  {
+    "id": "ada_inGoldenFlame_npcFeature_slinger_analogTargeting",
+    "name": "ANALOG TARGETING",
+    "origin": {
+      "type": "Class",
+      "name": "SLINGER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Slinger can make ranged attacks while <b>JAMMED</b>",
+    "tags": []
+  },
+  {
+    "id": "ada_inGoldenFlame_npcFeature_slinger_anotherHandCannon",
+    "name": "Another Hand Cannon",
+    "origin": {
+      "type": "Class",
+      "name": "SLINGER",
+      "base": true
+    },
+    "locked": false,
+    "type": "Weapon",
+    "effect": "When the Slinger makes an <b>OVERWATCH</b> attack with another weapon, they can also make an attack with this weapon against the triggering character.<br><br> This weapon is considered a <b>Hand Cannon</b> for any traits or systems that refer to one.",
+    "tags": [
+      {
+        "id": "tg_reliable",
+        "val": "1"
+      },
+      {
+        "id": "tg_ap"
+      }
+    ],
+    "weapon_type": "Auxiliary CQB",
+    "attack_bonus": [
+      2,
+      4,
+      6
+    ],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "damage": [
+          3,
+          4,
+          5
+        ]
+      }
+    ],
+    "range": [
+      {
+        "type": "range",
+        "val": 8
+      },
+      {
+        "type": "Threat",
+        "val": 3
+      }
+    ],
+    "on_hit": ""
+  },
+  {
+    "id": "ada_inGoldenFlame_npcFeature_slinger_darkWind",
+    "name": "Dark Wind",
+    "origin": {
+      "type": "Class",
+      "name": "SLINGER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Reaction",
+    "effect": "Clear that character’s <b>Deathmark</b>. Until the end of their turn, that character receives +3 <b>DIFFICULTY</b> on any attack that doesn’t target the Slinger.",
+    "tags": [
+      {
+        "id": "tg_round",
+        "val": 1
+      }
+    ],
+    "trigger": "A character with <b>Deathmark</b> starts their turn within line of sight and <b>RANGE 8</b> of the Slinger."
+  },
+  {
+    "id": "ada_inGoldenFlame_npcFeature_slinger_draw",
+    "name": "Draw!",
+    "origin": {
+      "type": "Class",
+      "name": "SLINGER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Reaction",
+    "effect": "The Slinger makes a <b>Hand Cannon</b> attack against that character. If the triggering character has <b>Deathmark</b>, clear it, and the Slinger’s attack happens first.",
+    "tags": [
+      {
+        "id": "tg_round",
+        "val": 1
+      }
+    ],
+    "trigger": "A character attacks the Slinger with a ranged weapon."
+  },
+  {
+    "id": "ada_inGoldenFlame_npcFeature_slinger_fanTheHammer",
+    "name": "Fan The Hammer",
+    "origin": {
+      "type": "Class",
+      "name": "SLINGER",
+      "base": false
+    },
+    "locked": false,
+    "type": "System",
+    "effect": "The Slinger prepares to unleash a hail of lead. The next attack it makes with its <b>Hand Cannon</b> becomes <b>CONE 5</b>, but doesn’t hit allied characters.",
+    "tags": [
+      {
+        "id": "tg_recharge",
+        "val": 4
+      },
+      {
+        "id": "tg_quick_action"
+      }
+    ]
+  },
+  {
+    "id": "ada_inGoldenFlame_npcFeature_slinger_shouldnaAughta",
+    "name": "Shouldna Aughta",
+    "origin": {
+      "type": "Class",
+      "name": "SLINGER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Reaction",
+    "effect": "That character gains <b>Deathmark</b>. At <b>TIER 2</b>, this reaction can be used twice per round. At <b>TIER 3</b>, it can be used three times per round.",
+    "tags": [
+      {
+        "id": "tg_round",
+        "val": [
+          1,
+          2,
+          3
+         ]
+      }
+    ],
+    "trigger": "A hostile character within line of sight of the Slinger attacks one of the Slinger’s allies."
+  },
+  {
+    "id": "ada_inGoldenFlame_npcFeature_slinger_theDevilsEye",
+    "name": "THE DEVIL’S EYE",
+    "origin": {
+      "type": "Class",
+      "name": "SLINGER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "The Slinger ignores <b>HIDDEN</b> and <b>INVISIBLE</b> on any character that has <b>Deathmark</b>.",
+    "tags": []
+  },
+  {
+    "id": "ada_inGoldenFlame_npcFeature_slinger_trueGrit",
+    "name": "TRUE GRIT",
+    "origin": {
+      "type": "Class",
+      "name": "SLINGER",
+      "base": false
+    },
+    "locked": false,
+    "type": "Trait",
+    "effect": "When a character with <b>Deathmark</b> attacks the Slinger, the Slinger gains <b>RESISTANCE</b> to damage, <b>HEAT</b> and <b>BURN</b> from that attack. Then, clear that character’s <b>Deathmark</b>.",
     "tags": []
   }
 ]

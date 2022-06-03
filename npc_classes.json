@@ -201,5 +201,213 @@
       "ada_inGoldenFlame_npcFeature_lobber_valhalla" 
     ],
     "power": 100
+  },
+   {
+    "id": "ada_inGoldenFlame_npcClass_parallel",
+    "name": "PARALLEL",
+    "role": "striker",
+    "info": {
+      "flavor": "PREPARED BY: UIB-TERMINALCLICHE<br> RECOVERED FOR: UIB-KATABATIC<br> CLEARENCE REQ: SOLEMN VIGIL<br><br> I can confirm that mechs belonging to pattern group “Parallel” match the profile of contacts first observed during the Calliope Incident (see report: CALAMITY AXIS). We’re still trying to work out the original developer. Current best guesses are SSC, the Armory, Horizon, or even the Cult of the One, but in my opinion, it can’t be any of them. This tech is decades ahead of even the biggest corprostates, let alone a bunch of cultists in a garage.",
+      "tactics": "The Parallel is a highly mobile striker that can hold large areas of the battlefield by literally being in two places at once. <b>PHASE ECHO</b> lets them position a surrogate that they can also switch places with to avoid incoming damage or make <b>OVERWATCH</b> attacks. A Parallel’s main weakness is its fragility; it relies on careful positioning and judicious use of Revert to avoid highdamage attacks. It can’t stand up to repeated damage, and removing its echoes hampers its mobility."
+    },
+    "stats": {
+      "armor": [
+        0,
+        0,
+        0
+      ],
+      "hp": [
+        12,
+        14,
+        18
+      ],
+      "evade": [
+        8,
+        10,
+        12
+      ],
+      "edef": [
+        8,
+        10,
+        12
+      ],
+      "heatcap": [
+        6,
+        8,
+        8
+      ],
+      "speed": [
+        5,
+        5,
+        5
+      ],
+      "sensor": [
+        5,
+        5,
+        5
+      ],
+      "save": [
+        11,
+        13,
+        16
+      ],
+      "hull": [
+        0,
+        0,
+        0
+      ],
+      "agility": [
+        1,
+        3,
+        5
+      ],
+      "systems": [
+        1,
+        2,
+        2
+      ],
+      "engineering": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "activations": [
+        1,
+        1,
+        1
+      ]
+    },
+    "base_features": [
+      "ada_inGoldenFlame_npcFeature_parallel_possibilityBlade",
+      "ada_inGoldenFlame_npcFeature_parallel_anomalousMotion",
+      "ada_inGoldenFlame_npcFeature_parallel_phaseEcho",
+      "ada_inGoldenFlame_npcFeature_parallel_revert",
+      "ada_inGoldenFlame_npcFeature_parallel_achronalResponse"
+    ],
+    "optional_features": [
+      "ada_inGoldenFlame_npcFeature_parallel_crackedMirror",
+      "ada_inGoldenFlame_npcFeature_parallel_deathwalker",
+      "ada_inGoldenFlame_npcFeature_parallel_doppler",
+      "ada_inGoldenFlame_npcFeature_parallel_shatter",
+      "ada_inGoldenFlame_npcFeature_parallel_uncertainty",
+      "ada_inGoldenFlame_npcFeature_parallel_wraithPistol" 
+    ],
+    "power": 100
+  },
+  {
+    "id": "ada_inGoldenFlame_npcClass_slinger",
+    "name": "SLINGER",
+    "role": "striker",
+    "info": {
+      "flavor": "Slinger-class mechs are a favorite among pilots who value skill over raw firepower. Stable, agile and dependable, Slinger frames don’t need military-grade guns or fancy tech; all they need is someone at the controls who knows when to take the shot that ends the fight. Stepping into battle against a Slinger is a nerve-wracking experience: a quiet duel of resolve, each combatant seeking their perfect moment, the razor-thin window that separates the quick from the dead.",
+      "tactics": "Slingers are potent area denial specialists who trade heavily on their <b>Deathmark</b> mechanic. It inflicts these upon a critical hit, so it will benefit allies who can provide <b>LOCK ON</b>. Its attacks ignore armour and deal damage even on a miss, and if it’s inflicted a lot of <b>Deathmarks</b>, it can unleash several at once at the start of its turn, threatening multiple foes in a wide radius.<br><br> The Slinger’s primary weaknesses are its inability to deal with targets at long range and its reliance on <b>Deathmark</b> to be effective. Inflicting <b>IMPAIRED</b> or using cover will make marks harder to inflict."
+    },
+    "stats": {
+      "armor": [
+        0,
+        0,
+        0
+      ],
+      "hp": [
+        16,
+        20,
+        20
+      ],
+      "evade": [
+        10,
+        12,
+        14
+      ],
+      "edef": [
+        8,
+        10,
+        12
+      ],
+      "heatcap": [
+        8,
+        8,
+        8
+      ],
+      "speed": [
+        4,
+        4,
+        5
+      ],
+      "sensor": [
+        8,
+        8,
+        8
+      ],
+      "save": [
+        11,
+        13,
+        16
+      ],
+      "hull": [
+        1,
+        2,
+        3
+      ],
+      "agility": [
+        2,
+        3,
+        4
+      ],
+      "systems": [
+        -1,
+        -1,
+        -1
+      ],
+      "engineering": [
+        1,
+        1,
+        1
+      ],
+      "size": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "activations": [
+        1,
+        1,
+        1
+      ]
+    },
+    "base_features": [
+      "ada_inGoldenFlame_npcFeature_slinger_handCannon",
+      "ada_inGoldenFlame_npcFeature_slinger_coolHand",
+      "ada_inGoldenFlame_npcFeature_slinger_deathmark",
+      "ada_inGoldenFlame_npcFeature_slinger_sunsZenith",
+      "ada_inGoldenFlame_npcFeature_slinger_ringTheBell"
+    ],
+    "optional_features": [
+      "ada_inGoldenFlame_npcFeature_slinger_analogTargeting",
+      "ada_inGoldenFlame_npcFeature_slinger_anotherHandCannon",
+      "ada_inGoldenFlame_npcFeature_slinger_darkWind",
+      "ada_inGoldenFlame_npcFeature_slinger_draw",
+      "ada_inGoldenFlame_npcFeature_slinger_fanTheHammer",
+      "ada_inGoldenFlame_npcFeature_slinger_shouldnaAughta",
+      "ada_inGoldenFlame_npcFeature_slinger_theDevilsEye",
+      "ada_inGoldenFlame_npcFeature_slinger_trueGrit"
+    ],
+    "power": 100
   }
 ]
