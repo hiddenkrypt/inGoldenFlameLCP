@@ -218,7 +218,7 @@
     },
     "locked": false,
     "type": "Trait",
-    "effect": "The Lobber has <b>RESISTANCE</b> to <b>Energy</b> and <b>damage from Blast attacks and systems</b>.",
+    "effect": "The Lobber has <b>RESISTANCE</b> to <b>Explosive damage</b> and <b>damage from Blast attacks and systems</b>.",
     "tags": []
   },
   {
