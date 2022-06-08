@@ -1,0 +1,36 @@
+[
+  {
+    "id": "ada_inGoldenFlame_pilotGear_broncoHook",
+    "name": "Bronco Hook",
+    "mount": "Auxiliary",
+    "source": "EXOTIC",
+    "type": "Melee ",
+    "range": [
+      {
+        "type": "Threat",
+        "val": 1
+      }
+    ],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "val": "1"
+      }
+    ],
+    "on_hit": "the Bronco Hook sticks in the target. You may retrieve the Bronco Hook by any means you would retrieve a thrown weapon, and when you do, the target takes <b>1 Kinetic AP</b>. If you or the target move away from each other by any means, they take this damage and the Bronco Hook automatically returns to you.",
+    "effect": "<b>On miss:</b> the Bronco Hook automatically returns to you if it was thrown",
+    "description": "<i>This appears to be a jury-rigged magnetic accelerator, designed to make tether points on asteroids by driving mech-scale pitons into them. Rule of thumb is if it can pierce a meter of asteroid rock, it can pierce ten centimeters of mech armor.<i>",
+    "tags": [
+      {
+        "id": "tg_exotic"
+      },
+      {
+        "id": "tg_thrown",
+        "val": 5
+      },
+      {
+        "id": "tg_ap"
+      }
+    ]
+  }
+]
