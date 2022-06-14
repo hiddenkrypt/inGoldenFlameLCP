@@ -1,0 +1,37 @@
+[
+  {
+    "id": "ada_inGoldenFlame_weapon_pilotGear_ispnAhabGrappleTetherLine",
+    "name": "ISP-N “Ahab” Grapple/Tether Line",
+    "type": "Gear",
+    "description": "“You ever get the feeling nobody at IPS-N spends any time thinking about the names they give to things? Like, either I don’t read, so I don’t get the reference, or I do and I realize they named a survival tool after a dude who’s famous exclusively for getting dragged to his death tied to a whale.”",
+    "actions": [
+      {
+        "name": "Activate",
+        "activation": "Free",
+        "detail": "You may expend a charge to shoot a hook at a character, object or free space up to <b>Line 5</b> away from you. You are attached to the hook by a tether, and cannot move or be moved further than five spaces away, unless you <b>teleport</b>, in which case the tether snaps. If the hook moves more than five spaces away, you are dragged along with it.",
+        "pilot": true
+      },
+      {
+        "name": "Reel In",
+        "activation": "Quick",
+        "detail": "As a <b>Quick Action</b>, you can reel yourself in, <b>flying</b> to the hook or as close to it as possible. This movement ignores engagement and doesn’t provoke reactions.",
+        "pilot": true
+      },
+      {
+        "name": "Detach",
+        "activation": "Full",
+        "detail": "You can detach from the tether as a <b>full action</b>. You can also retrieve a hook and tether that you are adjacent to as a <b>full action</b>, restoring a charge.",
+        "pilot": true
+      }
+    ],
+    "tags": [
+      {
+        "id": "tg_limited",
+        "val": 3
+      },
+      {
+        "id": "tg_exotic"
+      }
+    ]
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "id": "ada_inGoldenFlame_weapon_reboundPulseMineralScanner",
+    "name": "Rebound Pulse Mineral Scanner",
+    "type": "Tech",
+    "sp": 1,
+    "tags": [{
+        "id": "tg_quick_tech"
+      },
+      {
+        "id": "tg_unique"
+      }
+    ],
+    "source": "EXOTIC",
+    "actions": [{
+      "activation": "Quick Tech",
+      "detail": "<b>1/mission</b>, you may activate this system to SCAN every character in a <b>CONE 7</b> area, then apply <b>LOCK ON</b> to the character with the most current <b>HP</b>. All hostile characters in the area also lose <b>HIDDEN</b>"
+    }],
+    "description": "A simple piece of tech found on almost every mining ship, modified to provide an effective battlefield reconnaissance tool. Its minimum safe stand-off distance is several hundred kilometers; anything less, and the ping-back is loud enough to blow out the antenna.",
+    "data_type": "system",
+    "aptitude": {}
+  }
+]
