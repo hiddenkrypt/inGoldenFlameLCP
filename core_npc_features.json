@@ -1,4 +1,4 @@
-[
+
   {
     "id": "ada_inGoldenFlame_npcFeature_deluge_quadAssaultCannons",
     "name": "Quad Assault Cannons",
@@ -857,4 +857,3 @@
     "effect": "When a character with <b>Deathmark</b> attacks the Slinger, the Slinger gains <b>RESISTANCE</b> to damage, <b>Heat</b> and <b>Burn</b> from that attack. Then, clear that character’s <b>Deathmark</b>.",
     "tags": []
   }
-]
