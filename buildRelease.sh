@@ -1,6 +1,7 @@
 #!/bin/bash
 
 reset_files () {
+  echo "[" > actions.json
   echo "[" > npc_classes.json
   echo "[" > npc_features.json
   echo "[" > pilot_gear.json
@@ -8,6 +9,7 @@ reset_files () {
   echo "[" > weapons.json
 }
 close_files () {
+  echo "]" >> actions.json
   echo "]" >> npc_classes.json
   echo "]" >> npc_features.json
   echo "]" >> pilot_gear.json
@@ -21,6 +23,7 @@ close_files () {
 
 echo "Building core file"
 reset_files
+cat core_actions.json >> actions.json
 cp core_backgrounds.json backgrounds.json
 cp core_lcp_manifest.json lcp_manifest.json
 cat core_npc_classes.json >> npc_classes.json
@@ -32,13 +35,15 @@ close_files
 ver=$(cat lcp_manifest.json | pcregrep -o1  '.*version" ?: ?"([0-9\.]*)');
 touch releases/igf-core-build.$ver.lcp
 rm releases/igf-core-build.$ver.lcp
-zip releases/igf-core-build.$ver.lcp backgrounds.json lcp_manifest.json npc_classes.json npc_features.json pilot_gear.json systems.json weapons.json
+echo "creating igf-core-build.$ver.lcp"
+zip releases/igf-core-build.$ver.lcp actions.json backgrounds.json lcp_manifest.json npc_classes.json npc_features.json pilot_gear.json systems.json weapons.json
 
 
 
 
 
 echo "Final Cleanup";
+rm actions.json
 rm backgrounds.json
 rm lcp_manifest.json
 rm npc_classes.json
