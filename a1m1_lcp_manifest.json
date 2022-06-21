@@ -1,7 +1,7 @@
 {
-  "name": "In Golden Flame Act 1 (Core)",
+  "name": "In Golden Flame Act 1 (Mission 1)",
   "author": "Ada Clark",
   "description": "Comp/Con data for <i>In Golden Flame</i>, a LANCER Campaign by Vex. Contains all backgrounds, NPCs, and exotic gear available at the start of mission 1. Suitable for players at the start of the story.",
   "item_prefix": "ada_inGoldenFlame_",
-  "version": "0.7.1"
+  "version": "0.8"
 }
