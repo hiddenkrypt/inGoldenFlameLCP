@@ -1,0 +1,27 @@
+
+  {
+    "id": "ada_inGoldenFlame_system_cardcountV7FinalOmex",
+    "name": "CARDCOUNT_V7.7.7_FINAL.OMEX",
+    "type": "System",
+    "sp": 2,
+    "tags": [
+      {
+        "id": "tg_unique"
+      },
+      {
+        "id": "tg_heat_self",
+        "val": 2
+      },
+      {
+        "id": "tg_exotic"
+      }
+    ],
+    "source": "EXOTIC",
+    "actions": [{
+      "activation": "Protocol",
+      "detail": "<p>For the rest of the turn, this system becomes charged and you can’t take full actions until the start of your next turn.</p><p>If, during a quick action, you make an attack roll that misses or force a save that an enemy passes, expend the system’s charge. That quick action didn’t really happen; you made a probability calculation that returned an unfavourable result. Limited charges aren’t expended, loading weapons aren’t unloaded, reactions aren’t triggered, and so on. You must then choose a different quick action, and perform it instead.</p><p>If you don’t use it, this system loses its charge at the end of your turn, as the calculation’s initial conditionsno longer reflect reality.</p>"
+    }],
+    "description": "Card-counting devices and programs are banned everywhere on the Icebreaker; it’s one of the few things the Board can agree on. What makes this specific distro special (and even more illegal) is that somehow, it also works on slot machines, roulette wheels and mech fights. Programmers hired to examine it reported a tangle of neural-network-written paracode that calls variables antichronally.",
+    "data_type": "system",
+    "aptitude": {}
+  }
