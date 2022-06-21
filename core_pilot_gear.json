@@ -1,6 +1,6 @@
 
   {
-    "id": "ada_inGoldenFlame_weapon_pilotGear_ispnAhabGrappleTetherLine",
+    "id": "ada_inGoldenFlame_pilotGear_ispnAhabGrappleTetherLine",
     "name": "ISP-N “Ahab” Grapple/Tether Line",
     "type": "Gear",
     "description": "“You ever get the feeling nobody at IPS-N spends any time thinking about the names they give to things? Like, either I don’t read, so I don’t get the reference, or I do and I realize they named a survival tool after a dude who’s famous exclusively for getting dragged to his death tied to a whale.”",
@@ -20,7 +20,13 @@
       {
         "name": "Detach",
         "activation": "Full",
-        "detail": "You can detach from the tether as a <b>full action</b>. You can also retrieve a hook and tether that you are adjacent to as a <b>full action</b>, restoring a charge.",
+        "detail": "You can detach from the tether as a <b>full action</b>.",
+        "pilot": true
+      },
+      {
+        "name": "Retrieve",
+        "activation": "Full",
+        "detail": "You can retrieve a hook and tether that you are adjacent to as a <b>full action</b>, restoring a charge.",
         "pilot": true
       }
     ],
@@ -28,9 +34,26 @@
       {
         "id": "tg_limited",
         "val": 3
-      },
+      }
+    ]
+  },
+  {
+    "id": "ada_inGoldenFlame_pilotGear_scrableGrenade",
+    "name": "Scrable Grenade",
+    "type": "Gear",
+    "description": "This is actually a high-power, short-range distress beacon meant to help search-and-rescue teams locate astronauts who’ve been thrown into space. Some asshole discovered that if you jam a bunch of escape characters into the broadcast signal and overvolt the transmitter, you can make unshielded electronics shit themselves. It fries itself after a few seconds, a fate many wrenchies have wished upon its inventor.",
+    "actions": [
       {
-        "id": "tg_exotic"
+        "name": "Scrable Grenade",
+        "activation": "Free",
+        "detail": "Expend a charge for the following effect: (Range 5, Burst 1, Grenade) Affected characters without the <b>BIOLOGICAL</b> tag must succeed on a <b>SYSTEMS</b> save against 10 + your <b>GRIT</b> or become <b>JAMMED</b> until the end of their next turn.",
+        "pilot": true
+      }
+    ],
+    "tags": [
+      {
+        "id": "tg_limited",
+        "val": 1
       }
     ]
   }
