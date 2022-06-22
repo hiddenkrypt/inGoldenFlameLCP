@@ -1,5 +1,7 @@
 #!/bin/bash
 
+mkdir releases/individualItems -p
+ 
 reset_files () {
   echo "[" > actions.json
   echo "[" > npc_classes.json
@@ -40,12 +42,12 @@ delete_files () {
 
 echo "Building a1m1 file"
 reset_files
-cat a1m1_actions.json >> actions.json
-cp a1m1_backgrounds.json backgrounds.json
-cp a1m1_lcp_manifest.json lcp_manifest.json
-cat a1m1_pilot_gear.json >> pilot_gear.json
-cat a1m1_systems.json >> systems.json
-cat a1m1_weapons.json >> weapons.json
+cat a1m1/a1m1_actions.json >> actions.json
+cp a1m1/a1m1_backgrounds.json backgrounds.json
+cp a1m1/a1m1_lcp_manifest.json lcp_manifest.json
+cat a1m1/a1m1_pilot_gear.json >> pilot_gear.json
+cat a1m1/a1m1_systems.json >> systems.json
+cat a1m1/a1m1_weapons.json >> weapons.json
 close_files
 ver=$(cat lcp_manifest.json | pcregrep -o1  '.*version" ?: ?"([0-9\.]*)');
 touch releases/igf-a1m1-build.$ver.lcp
@@ -57,34 +59,34 @@ zip releases/igf-a1m1-build.$ver.lcp actions.json backgrounds.json lcp_manifest.
 echo "Building gear files"
 echo "==>   Building Cardcount"
 reset_files
-cp a1m2_cardcount_lcp_manifest.json lcp_manifest.json
-cat a1m2_cardcount_systems.json >> systems.json
+cp a1m2/a1m2_cardcount_lcp_manifest.json lcp_manifest.json
+cat a1m2/a1m2_cardcount_systems.json >> systems.json
 close_files
 ver=$(cat lcp_manifest.json | pcregrep -o1  '.*version" ?: ?"([0-9\.]*)');
-touch releases/igf-a1m2-cardcount.$ver.lcp
-rm releases/igf-a1m2-cardcount.$ver.lcp
+touch releases/individualItems/igf-a1m2-cardcount.$ver.lcp
+rm releases/individualItems/igf-a1m2-cardcount.$ver.lcp
 echo "creating igf-a1m2-cardcount.$ver.lcp"
-zip releases/igf-a1m2-cardcount.$ver.lcp  lcp_manifest.json systems.json
+zip releases/individualItems/igf-a1m2-cardcount.$ver.lcp -q lcp_manifest.json systems.json 
 
 echo "Building Total File"
 reset_files
 
-cat a1m1_actions.json >> actions.json
-cp a1m1_backgrounds.json backgrounds.json
+cat a1m1/a1m1_actions.json >> actions.json
+cp a1m1/a1m1_backgrounds.json backgrounds.json
 cp total_lcp_manifest.json lcp_manifest.json
-cat a1m1_npc_classes.json >> npc_classes.json
-cat a1m1_npc_features.json >> npc_features.json
-cat a1m1_pilot_gear.json >> pilot_gear.json
-cat a1m1_systems.json >> systems.json
+cat a1m1/a1m1_npc_classes.json >> npc_classes.json
+cat a1m1/a1m1_npc_features.json >> npc_features.json
+cat a1m1/a1m1_pilot_gear.json >> pilot_gear.json
+cat a1m1/a1m1_systems.json >> systems.json
 echo "," >> systems.json
-cat a1m2_cardcount_systems.json >> systems.json
-cat a1m1_weapons.json >> weapons.json
+cat a1m2/a1m2_cardcount_systems.json >> systems.json
+cat a1m1/a1m1_weapons.json >> weapons.json
 close_files
 ver=$(cat lcp_manifest.json | pcregrep -o1  '.*version" ?: ?"([0-9\.]*)');
-touch releases/igf-total.$ver.lcp
-rm releases/igf-total.$ver.lcp
-echo "creating igf-total.$ver.lcp"
-zip releases/igf-total.$ver.lcp actions.json backgrounds.json lcp_manifest.json npc_classes.json npc_features.json pilot_gear.json systems.json weapons.json
+touch releases/igf-complete.$ver.lcp
+rm releases/igf-complete.$ver.lcp
+echo "creating igf-complete.$ver.lcp"
+zip releases/igf-complete.$ver.lcp actions.json backgrounds.json lcp_manifest.json npc_classes.json npc_features.json pilot_gear.json systems.json weapons.json
 
 echo "Final Cleanup";
 delete_files
