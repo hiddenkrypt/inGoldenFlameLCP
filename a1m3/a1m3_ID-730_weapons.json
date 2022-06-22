@@ -1,0 +1,41 @@
+  {
+    "id": "ada_inGoldenFlame_weapon_ID730",
+    "name": "ID-730 “Hardcastle” Automatic Shotgun",
+    "mount": "Main",
+    "source": "EXOTIC",
+    "type": "CQB",
+    "range": [
+      {
+        "type": "range",
+        "val": 3
+      },
+      {
+        "type": "threat",
+        "val": 3
+      }
+      
+    ],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "val": "2d6"
+      }
+    ],
+    "on_hit": "",
+    "effect": "If <b>Overkill</b> triggers, this weapon doesn’t need to be reloaded",
+    "description": "The ID-730 was undergoing its first design revision when Impact Dynamics abandoned weapons development. Results from the initial release were promising, but its trigger had an unfortunate tendency to “run away,” emptying entire magazines or melting the barrel.",
+    "tags": [
+      {
+        "id": "tg_exotic"
+      },
+      {
+        "id": "tg_overkill"
+      },
+      {
+        "id": "tg_unique"
+      },
+      {
+        "id": "tg_loading"
+      }
+    ]
+  }

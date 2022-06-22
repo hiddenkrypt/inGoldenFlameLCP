@@ -87,6 +87,36 @@ touch releases/individualItems/igf-a1m2-catastrophebeam.$ver.lcp
 rm releases/individualItems/igf-a1m2-catastrophebeam.$ver.lcp
 zip releases/individualItems/igf-a1m2-catastrophebeam.$ver.lcp -q lcp_manifest.json weapons.json 
 
+echo " | ==> Building [ID-440]"
+reset_files
+cp a1m3/a1m3_ID-440_lcp_manifest.json lcp_manifest.json
+cat a1m3/a1m3_ID-440_weapons.json >> weapons.json
+close_files
+ver=$(cat lcp_manifest.json | pcregrep -o1  '.*version" ?: ?"([0-9\.]*)');
+touch releases/individualItems/igf-a1m3-ID-440.$ver.lcp
+rm releases/individualItems/igf-a1m3-ID-440.$ver.lcp
+zip releases/individualItems/igf-a1m3-ID-440.$ver.lcp -q lcp_manifest.json weapons.json 
+
+echo " | ==> Building [ID-730]"
+reset_files
+cp a1m3/a1m3_ID-730_lcp_manifest.json lcp_manifest.json
+cat a1m3/a1m3_ID-730_weapons.json >> weapons.json
+close_files
+ver=$(cat lcp_manifest.json | pcregrep -o1  '.*version" ?: ?"([0-9\.]*)');
+touch releases/individualItems/igf-a1m3-ID-730.$ver.lcp
+rm releases/individualItems/igf-a1m3-ID-730.$ver.lcp
+zip releases/individualItems/igf-a1m3-ID-730.$ver.lcp -q lcp_manifest.json weapons.json
+
+echo " | ==> Building [ID-820]"
+reset_files
+cp a1m3/a1m3_ID-820_lcp_manifest.json lcp_manifest.json
+cat a1m3/a1m3_ID-820_weapons.json >> weapons.json
+close_files
+ver=$(cat lcp_manifest.json | pcregrep -o1  '.*version" ?: ?"([0-9\.]*)');
+touch releases/individualItems/igf-a1m3-ID-820.$ver.lcp
+rm releases/individualItems/igf-a1m3-ID-820.$ver.lcp
+zip releases/individualItems/igf-a1m3-ID-820.$ver.lcp -q lcp_manifest.json weapons.json 
+
 echo "Building Total File"
 reset_files
 cat a1m1/a1m1_actions.json >> actions.json
@@ -103,6 +133,12 @@ echo "," >> weapons.json
 cat a1m2/a1m2_goldenhand_weapons.json >> weapons.json
 echo "," >> weapons.json
 cat a1m2/a1m2_catastrophebeam_weapons.json >> weapons.json
+echo "," >> weapons.json
+cat a1m3/a1m3_ID-440_weapons.json >> weapons.json
+echo "," >> weapons.json
+cat a1m3/a1m3_ID-730_weapons.json >> weapons.json
+echo "," >> weapons.json
+cat a1m3/a1m3_ID-820_weapons.json >> weapons.json
 close_files
 ver=$(cat lcp_manifest.json | pcregrep -o1  '.*version" ?: ?"([0-9\.]*)');
 touch releases/igf-complete.$ver.lcp

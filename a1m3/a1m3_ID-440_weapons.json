@@ -1,0 +1,33 @@
+  {
+    "id": "ada_inGoldenFlame_weapon_ID440",
+    "name": "ID-440 “Obelisk” Kinetic Repeater",
+    "mount": "Heavy",
+    "source": "EXOTIC",
+    "type": "Cannon",
+    "range": [
+      {
+        "type": "range",
+        "val": 5
+      }      
+    ],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "val": "2d6"
+      }
+    ],
+    "on_hit": "Make a secondary attack against all characters in a <b>Cone 3</b> area directly behind the target. These attacks lose <b>AP</b>, can’t deal bonus damage and don’t trigger further secondary attacks. This effect triggers automatically if the attack is made against a piece of <b>hard cover</b>.",
+    "effect": "",
+    "description": "Intended as an answer to the GMS heavy machinegun, the Obelisk failed to wow the market. Its proprietary Overpenetrator rounds are failure-prone and incompatible with other firearms, its recoil is considered unmanageable even by the standards of its weight class, and its range leaves much to be desired. Nevertheless, Impact Dynamics made thousands of them for a contract that never got fulfilled",
+    "tags": [
+      {
+        "id": "tg_exotic"
+      },
+      {
+        "id": "tg_inaccurate"
+      },
+      {
+        "id": "tg_ap"
+      }
+    ]
+  }

@@ -1,0 +1,36 @@
+  {
+    "id": "ada_inGoldenFlame_weapon_ID820",
+    "name": "ID-820 “Sermon” Compact SMG",
+    "mount": "Auxiliary",
+    "source": "EXOTIC",
+    "type": "CQB",
+    "range": [
+      {
+        "type": "range",
+        "val": 5
+      },
+      {
+        "type": "threat",
+        "val": 3
+      }
+      
+    ],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "val": "1d3+1"
+      }
+    ],
+    "on_hit": "",
+    "effect": "Any number of <b>ID-820 “Sermon” Compact SMGs</b> installed on the same mech count as only one piece of Exotic Gear for installation limits.",
+    "description": "Impact Dynamics designed he ID-820 with one  goal: put as much lead downrange, in as little  time, with as little recoil, in as tight a frame  as possible. It hit all of these targets, and was one of the company’s flagship products  before it switched to agriculture. It’s proven so popular that Impact Dynamics still revises and updates it on occasion.",
+    "tags": [
+      {
+        "id": "tg_exotic"
+      },
+      {
+        "id": "tg_reliable",
+        "val": 1
+      }
+    ]
+  }
