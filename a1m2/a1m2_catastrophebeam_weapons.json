@@ -1,0 +1,41 @@
+  {
+    "id": "ada_inGoldenFlame_weapon_catastropheBeam",
+    "name": "Catastrophe Beam",
+    "mount": "Superheavy",
+    "source": "EXOTIC",
+    "type": "Cannon",
+    "range": [
+      {
+        "type": "Line",
+        "val": 20
+      }      
+    ],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "val": "3d6"
+      },
+      {
+        "type": "Burn",
+        "val": "8"
+      }
+    ],
+    "on_hit": "",
+    "effect": "<p>You must charge the Catastrophe Beam as a <b>full action</b> before firing it. While the weapon is charged, you become <b>IMMOBILIZED</b> and cannot lose <b>HEAT</b> by any means except overheating, but you benefit from <b>soft cover</b>. This weapon loses its charge when you fire it.</p><p><b>On attack:</b> this weapon automatically deals <b>30 Energy AP</b> damage to all cover, terrain, and objects in its area. All characters within <b>Burst 2</b> of you must make a <b>HULL</b> save or be pushed outside the area and knocked <b>PRONE</b>.",
+    "description": "“I’m not going to bother writing any safety protocols in the documentation for this weapon. To be honest, it’s not safe to fire under any circumstances, but I doubt that will stop you.” - Dr. Genevieve Nyambose",
+    "tags": [
+      {
+        "id": "tg_exotic"
+      },
+      {
+        "id": "tg_unique"
+      },
+      {
+        "id": "tg_ordnance"
+      },
+      {
+        "id": "tg_heat_self",
+        "val": 8
+      }
+    ]
+  }

@@ -56,8 +56,8 @@ zip releases/igf-a1m1-build.$ver.lcp -q actions.json backgrounds.json lcp_manife
 
 
 echo "Building gear files"
-echo "|"
-echo "| ==> Building [The Golden Hand]"
+echo " |"
+echo " | ==> Building [The Golden Hand]"
 reset_files
 cp a1m2/a1m2_goldenhand_lcp_manifest.json lcp_manifest.json
 cat a1m2/a1m2_goldenhand_weapons.json >> weapons.json
@@ -67,7 +67,7 @@ touch releases/individualItems/igf-a1m2-goldenhand.$ver.lcp
 rm releases/individualItems/igf-a1m2-goldenhand.$ver.lcp
 zip releases/individualItems/igf-a1m2-goldenhand.$ver.lcp -q lcp_manifest.json weapons.json 
 
-echo "| ==> Building [Cardcount]"
+echo " | ==> Building [Cardcount]"
 reset_files
 cp a1m2/a1m2_cardcount_lcp_manifest.json lcp_manifest.json
 cat a1m2/a1m2_cardcount_systems.json >> systems.json
@@ -76,6 +76,16 @@ ver=$(cat lcp_manifest.json | pcregrep -o1  '.*version" ?: ?"([0-9\.]*)');
 touch releases/individualItems/igf-a1m2-cardcount.$ver.lcp
 rm releases/individualItems/igf-a1m2-cardcount.$ver.lcp
 zip releases/individualItems/igf-a1m2-cardcount.$ver.lcp -q lcp_manifest.json systems.json 
+
+echo " | ==> Building [Catastrophe Beam]"
+reset_files
+cp a1m2/a1m2_catastrophebeam_lcp_manifest.json lcp_manifest.json
+cat a1m2/a1m2_catastrophebeam_weapons.json >> weapons.json
+close_files
+ver=$(cat lcp_manifest.json | pcregrep -o1  '.*version" ?: ?"([0-9\.]*)');
+touch releases/individualItems/igf-a1m2-catastrophebeam.$ver.lcp
+rm releases/individualItems/igf-a1m2-catastrophebeam.$ver.lcp
+zip releases/individualItems/igf-a1m2-catastrophebeam.$ver.lcp -q lcp_manifest.json weapons.json 
 
 echo "Building Total File"
 reset_files
@@ -91,6 +101,8 @@ cat a1m2/a1m2_cardcount_systems.json >> systems.json
 cat a1m1/a1m1_weapons.json >> weapons.json
 echo "," >> weapons.json
 cat a1m2/a1m2_goldenhand_weapons.json >> weapons.json
+echo "," >> weapons.json
+cat a1m2/a1m2_catastrophebeam_weapons.json >> weapons.json
 close_files
 ver=$(cat lcp_manifest.json | pcregrep -o1  '.*version" ?: ?"([0-9\.]*)');
 touch releases/igf-complete.$ver.lcp
