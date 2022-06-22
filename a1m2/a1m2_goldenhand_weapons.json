@@ -1,0 +1,43 @@
+
+  {
+    "id": "ada_inGoldenFlame_weapon_theGoldenHand",
+    "name": "The Golden Hand",
+    "mount": "Auxiliary",
+    "source": "EXOTIC",
+    "type": "CQB",
+    "range": [
+      {
+        "type": "range",
+        "val": 5
+      },
+      {
+        "type": "threat",
+        "val": 3
+      }
+      
+    ],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "val": "1d6"
+      }
+    ],
+    "on_hit": "<b>On Critical Hit:</b> After this attack, reload every weapon in this mount.",
+    "effect": "If you install the <b>Golden Hand</b> in the same mount as the <b>Crimson Hand</b>, they count as only one piece of Exotic Gear for installation limits.",
+    "description": "<p>Marika was fast as lightning, and she had to be: she could never aim worth a damn. Zhihao was quick to mock her wide shots, and it made her blush.</p><p>When your mech levels it, you smell whiskey, cigar smoke and rose perfume, hear the sound of dancing, and you want to laugh like the devil.</p>",
+    "tags": [
+      {
+        "id": "tg_exotic"
+      },
+      {
+        "id": "tg_reliable",
+        "val": 1
+      },
+      {
+        "id": "tg_unique"
+      },
+      {
+        "id": "tg_loading"
+      }
+    ]
+  }

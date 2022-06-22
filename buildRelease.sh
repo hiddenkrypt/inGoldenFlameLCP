@@ -52,12 +52,22 @@ close_files
 ver=$(cat lcp_manifest.json | pcregrep -o1  '.*version" ?: ?"([0-9\.]*)');
 touch releases/igf-a1m1-build.$ver.lcp
 rm releases/igf-a1m1-build.$ver.lcp
-echo "creating igf-a1m1-build.$ver.lcp"
-zip releases/igf-a1m1-build.$ver.lcp actions.json backgrounds.json lcp_manifest.json pilot_gear.json systems.json weapons.json
+zip releases/igf-a1m1-build.$ver.lcp -q actions.json backgrounds.json lcp_manifest.json pilot_gear.json systems.json weapons.json
 
 
 echo "Building gear files"
-echo "==>   Building Cardcount"
+echo "|"
+echo "| ==> Building [The Golden Hand]"
+reset_files
+cp a1m2/a1m2_goldenhand_lcp_manifest.json lcp_manifest.json
+cat a1m2/a1m2_goldenhand_weapons.json >> weapons.json
+close_files
+ver=$(cat lcp_manifest.json | pcregrep -o1  '.*version" ?: ?"([0-9\.]*)');
+touch releases/individualItems/igf-a1m2-goldenhand.$ver.lcp
+rm releases/individualItems/igf-a1m2-goldenhand.$ver.lcp
+zip releases/individualItems/igf-a1m2-goldenhand.$ver.lcp -q lcp_manifest.json weapons.json 
+
+echo "| ==> Building [Cardcount]"
 reset_files
 cp a1m2/a1m2_cardcount_lcp_manifest.json lcp_manifest.json
 cat a1m2/a1m2_cardcount_systems.json >> systems.json
@@ -65,12 +75,10 @@ close_files
 ver=$(cat lcp_manifest.json | pcregrep -o1  '.*version" ?: ?"([0-9\.]*)');
 touch releases/individualItems/igf-a1m2-cardcount.$ver.lcp
 rm releases/individualItems/igf-a1m2-cardcount.$ver.lcp
-echo "creating igf-a1m2-cardcount.$ver.lcp"
 zip releases/individualItems/igf-a1m2-cardcount.$ver.lcp -q lcp_manifest.json systems.json 
 
 echo "Building Total File"
 reset_files
-
 cat a1m1/a1m1_actions.json >> actions.json
 cp a1m1/a1m1_backgrounds.json backgrounds.json
 cp total_lcp_manifest.json lcp_manifest.json
@@ -85,8 +93,7 @@ close_files
 ver=$(cat lcp_manifest.json | pcregrep -o1  '.*version" ?: ?"([0-9\.]*)');
 touch releases/igf-complete.$ver.lcp
 rm releases/igf-complete.$ver.lcp
-echo "creating igf-complete.$ver.lcp"
-zip releases/igf-complete.$ver.lcp actions.json backgrounds.json lcp_manifest.json npc_classes.json npc_features.json pilot_gear.json systems.json weapons.json
+zip releases/igf-complete.$ver.lcp -q actions.json backgrounds.json lcp_manifest.json npc_classes.json npc_features.json pilot_gear.json systems.json weapons.json
 
 echo "Final Cleanup";
 delete_files
