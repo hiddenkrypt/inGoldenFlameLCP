@@ -12,7 +12,7 @@
     ],
     "damage": [
       {
-        "type": "Kinetic",
+        "type": "Energy",
         "val": "3d6"
       },
       {
