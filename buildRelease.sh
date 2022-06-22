@@ -89,6 +89,8 @@ cat a1m1/a1m1_systems.json >> systems.json
 echo "," >> systems.json
 cat a1m2/a1m2_cardcount_systems.json >> systems.json
 cat a1m1/a1m1_weapons.json >> weapons.json
+echo "," >> weapons.json
+cat a1m2/a1m2_goldenhand_weapons.json >> weapons.json
 close_files
 ver=$(cat lcp_manifest.json | pcregrep -o1  '.*version" ?: ?"([0-9\.]*)');
 touch releases/igf-complete.$ver.lcp
