@@ -122,8 +122,8 @@ reset_files
 cat a1m1/a1m1_actions.json >> actions.json
 cp a1m1/a1m1_backgrounds.json backgrounds.json
 cp total_lcp_manifest.json lcp_manifest.json
-cat a1m1/a1m1_npc_classes.json >> npc_classes.json
-cat a1m1/a1m1_npc_features.json >> npc_features.json
+cat igf_npc_classes.json >> npc_classes.json
+cat igf_npc_features.json >> npc_features.json
 cat a1m1/a1m1_pilot_gear.json >> pilot_gear.json
 cat a1m1/a1m1_systems.json >> systems.json
 echo "," >> systems.json
