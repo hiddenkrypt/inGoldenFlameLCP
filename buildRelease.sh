@@ -117,6 +117,16 @@ touch releases/individualItems/igf-a1m3-ID-820.$ver.lcp
 rm releases/individualItems/igf-a1m3-ID-820.$ver.lcp
 zip releases/individualItems/igf-a1m3-ID-820.$ver.lcp -q lcp_manifest.json weapons.json 
 
+echo " | ==> Building [Tripled Point]"
+reset_files
+cp a1m4/a1m4_tripledPoint_lcp_manifest.json lcp_manifest.json
+cat a1m4/a1m4_tripledPoint_weapons.json >> weapons.json
+close_files
+ver=$(cat lcp_manifest.json | pcregrep -o1  '.*version" ?: ?"([0-9\.]*)');
+touch releases/individualItems/igf-a1m4_tripledPoint.$ver.lcp
+rm releases/individualItems/igf-a1m4_tripledPoint.$ver.lcp
+zip releases/individualItems/igf-a1m4_tripledPoint.$ver.lcp -q lcp_manifest.json weapons.json 
+
 echo "Building Total File"
 reset_files
 cat a1m1/a1m1_actions.json >> actions.json
@@ -139,6 +149,8 @@ echo "," >> weapons.json
 cat a1m3/a1m3_ID-730_weapons.json >> weapons.json
 echo "," >> weapons.json
 cat a1m3/a1m3_ID-820_weapons.json >> weapons.json
+echo "," >> weapons.json
+cat a1m4/a1m4_tripledPoint_weapons.json >> weapons.json
 close_files
 ver=$(cat lcp_manifest.json | pcregrep -o1  '.*version" ?: ?"([0-9\.]*)');
 touch releases/igf-complete.$ver.lcp

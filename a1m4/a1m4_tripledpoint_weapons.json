@@ -1,0 +1,34 @@
+  {
+    "id": "ada_inGoldenFlame_weapon_tripledPoint",
+    "name": "Tripled Point",
+    "mount": "Main",
+    "source": "EXOTIC",
+    "type": "Nexus",
+    "sp": 1,
+    "range": [
+      {
+        "type": "range",
+        "val": 10
+      }      
+    ],
+    "damage": [
+      {
+        "type": "Kinetic",
+        "val": "1d3+1"
+      }
+    ],
+    "on_hit": "",
+    "effect": "<p>This weapon makes three attacks at once, each of which must be against a different target. Attack and damage rolls are made normally, but only one of these attacks actually resolves; you choose which.</p><p> For the purposes of talents and systems that activate only once a round or activate on the first attack of a round, all three attacks count. The two attacks that don’t resolve don’t actually happen; damage isn’t dealt, <b>LOCK ON</b> isn’t consumed, effects are not triggered, etc. Reactions to each attack must be declared before you decide which one is real, but only trigger if they apply to the real attack.</p>",
+    "description": "Though the light inside has departed, it still whispers to you of all the things that could have been, and might yet be.",
+    "tags": [
+      {
+        "id": "tg_exotic"
+      },
+      {
+        "id": "tg_smart"
+      },
+      {
+        "id": "tg_unique"
+      }
+    ]
+  }
